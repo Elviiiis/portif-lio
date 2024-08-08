@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    background-image: url(https://wallpapers.com/images/hd/minimalist-ocean-1920-x-1080-wallpaper-4vp2jn1t4n7hnqkz.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+ }
+ header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px 2px rgb(0, 89, 255);
+    color: rgb(0, 208, 255);
+    height: 7.5vh;
+    padding: 5px;
+
+}
+.logo {
+    font-size: 1rem;
+    margin-left: 1rem;
+    transition: 1s;
+    color: cyan;
+    box-shadow: 10px darkblue;
+}
+
+ul a{
+    margin-left: 1rem;
+    transition: 1s;
+    color: darkblue;
+}
+ul a:hover{
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+footer {
+    background-color: rgb(34, 34, 92);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
